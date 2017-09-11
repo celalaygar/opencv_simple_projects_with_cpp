@@ -49,7 +49,7 @@ int main(int argc, char** argv)
 			}
 		}
 		cout <<" tp : "<< ToplamPixel<<" p : "<<pixel<<" tp-p : "<< ToplamPixel - pixel << "   cnt : " <<cnt << endl;
-		if (cnt > ToplamPixel-pixel )
+		if (cnt > pixel-10000 )
 			cout << " -------------------------------- " << endl;
 		
 
