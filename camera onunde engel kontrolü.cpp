@@ -46,7 +46,7 @@ int main(int argc, char** argv)
 		}
 		cout <<" tp : "<< ToplamPixel<<" p : "<<pixel<<" tp-p : "<< ToplamPixel - pixel << "   cnt : " <<cnt << endl;
 		if (cnt > pixel-10000 )
-			cout << " -------------------------------- " << endl;
+			cout << " kamera önünde engel var " << endl;
 		imshow("Görüntü", frame);
 		if (waitKey(3) == 27) break;
 	}
