@@ -1,6 +1,5 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv/highgui.h>
-#include <opencv2/highgui/highgui.hpp>
 #include <iostream>                        // std::cout
 #include <opencv2/core/core.hpp>           // cv::Mat
 #include <opencv2/imgcodecs/imgcodecs.hpp>     // cv::imread()
