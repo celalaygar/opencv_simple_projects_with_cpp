@@ -27,7 +27,6 @@ int main(int argc, char** argv)
 
 
 	int ToplamPixel = 0,pixel=0,cnt=0;
-	vector<Rect> bulunanlar;
 	while (true) {
 		kamera >> frame;
 		ToplamPixel = frame.rows*frame.cols;
@@ -50,7 +49,7 @@ int main(int argc, char** argv)
 		}
 		cout <<" tp : "<< ToplamPixel<<" p : "<<pixel<<" tp-p : "<< ToplamPixel - pixel << "   cnt : " <<cnt << endl;
 		if (cnt > pixel-10000 )
-			cout << " -------------------------------- " << endl;
+			cout << " Kamera önünde engel var" << endl;
 		
 
 		imshow("Yuz Bulucu", frame);
