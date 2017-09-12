@@ -25,9 +25,9 @@ int main(int argc, char** argv)
 		//resmin ilk 200 x 200 lük bölümünü tek renk haline getirdik
 		for (int x = 0; x < 200;x++) {
 			for (int y = 0; y < 200;y++) {
-				frame.at<cv::Vec3b>(x, y)[0] = 255;    // mavi
-				frame.at<cv::Vec3b>(x, y)[1] = 0;      // yeşil
-				frame.at<cv::Vec3b>(x, y)[2] = 0;	   //kırmızı
+				frame.at<cv::Vec3b>(x, y)[0] = 255;	// mavi
+				frame.at<cv::Vec3b>(x, y)[1] = 0;	// yeşil
+				frame.at<cv::Vec3b>(x, y)[2] = 0;	//kırmızı
 			}
 		}
 		imshow("Yuz Bulucu", frame);
