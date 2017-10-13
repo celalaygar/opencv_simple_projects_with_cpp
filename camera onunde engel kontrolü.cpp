@@ -11,20 +11,11 @@
 
 using namespace cv;
 using namespace std;
-const char m[] = "M";
-const char p[] = "P";
-const char d[] = "4";
-const char i[] = "2";
-
 
 int main(int argc, char** argv)
 {
-
-
 	VideoCapture kamera(0);
 	Mat frame, frame_gri;
-
-
 	int ToplamPixel = 0,pixel=0,cnt=0;
 	while (true) {
 		kamera >> frame;
@@ -50,8 +41,6 @@ int main(int argc, char** argv)
 		imshow("Görüntü", frame);
 		if (waitKey(3) == 27) break;
 	}
-
 	waitKey(0); // Wait for a keystroke in the window
 	return 0;
-
 }
