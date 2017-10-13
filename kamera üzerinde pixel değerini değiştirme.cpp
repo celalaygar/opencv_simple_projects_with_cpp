@@ -15,8 +15,6 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-
-
 	VideoCapture kamera(0);
 	Mat frame, frame_gri;
 	vector<Rect> bulunanlar;
@@ -33,7 +31,6 @@ int main(int argc, char** argv)
 		imshow("Yuz Bulucu", frame);
 		if (waitKey(3) == 27) break;
 	}
-
-
 	waitKey(0); // Wait for a keystroke in the window
 	return 0;
+}
