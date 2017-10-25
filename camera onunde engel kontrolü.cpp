@@ -16,30 +16,31 @@ int main(int argc, char** argv)
 {
 	VideoCapture kamera(0);
 	Mat frame, frame_gri;
-	int ToplamPixel = 0,pixel=0,cnt=0;
+	int ToplamPixel = 0, pixel = 0, cnt = 0,c;
 	while (true) {
 		kamera >> frame;
+		c = 0;
 		ToplamPixel = frame.rows*frame.cols;
-		pixel = (frame.rows-200)*(frame.cols-200); cnt = 0;
-		
+		pixel = (frame.rows - 100)*(frame.cols - 100); cnt = 0;
+
 		cvtColor(frame, frame_gri, CV_BGR2GRAY);
 		//resmin ilk 200 x 200 lük bölümünü tek renk haline getirdik
-		for (int x = 50; x < frame.rows- 50;x++) {
-			for (int y = 50; y < frame.cols- 50;y++) {
-				int b = 0,c=0,a=0;
+		for (int x = 50; x < frame.rows - 50; x++) {
+			for (int y = 50; y < frame.cols - 50; y++) {
+				int b = 0, c = 0, a = 0;
 				a = frame.at<cv::Vec3b>(x, y)[0];  //blue
 				b = frame.at<cv::Vec3b>(x, y)[1];  //green
 				c = frame.at<cv::Vec3b>(x, y)[2];  //red
-				if (a < 20 && b < 20 && c < 20) {
+				if (a < 10 && b < 10 && c < 10) {
 					cnt++;
 				}
 			}
 		}
-		cout <<" tp : "<< ToplamPixel<<" p : "<<pixel<<" tp-p : "<< ToplamPixel - pixel << "   cnt : " <<cnt << endl;
-		if (cnt > pixel-10000 )
+		cout << " tp : " << ToplamPixel << "     p : " << pixel << "       cnt : " << cnt << endl;
+		if (cnt > pixel - 15000)
 			cout << " kamera önünde engel var " << endl;
 		imshow("Görüntü", frame);
-		if (waitKey(3) == 27) break;
+		if (waitKey(33) == 27) break;
 	}
 	waitKey(0); // Wait for a keystroke in the window
 	return 0;
