@@ -31,7 +31,7 @@ int main(int argc, char** argv)
 				a = frame.at<cv::Vec3b>(x, y)[0];  //blue
 				b = frame.at<cv::Vec3b>(x, y)[1];  //green
 				c = frame.at<cv::Vec3b>(x, y)[2];  //red
-				if (a < 10 && b < 10 && c < 10) {
+				if (a < 25 && b < 25 && c < 25) {
 					cnt++;
 				}
 			}
