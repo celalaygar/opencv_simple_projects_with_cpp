@@ -59,6 +59,9 @@ int main(int argc, char** argv)
 		}
 		imshow("cizgi resim", Isres);
 		yeniframe = yeniframe+ cizgiresim;
+		//1. deger giriş frame 2. deger cıkış frame 
+		//3. deger 1 0 ve -1 degerini alır.
+		flip(yeniframe, yeniframe, 1);
 		imshow("Orjinal resim", yeniframe);
 		if (waitKey(30) == 27) {
 			cout << "uygulama sonlandı.";
