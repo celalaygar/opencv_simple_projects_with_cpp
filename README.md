@@ -1,5 +1,5 @@
 
-# a lot of simple project about image proccesing with c++ and opencv (English)
+# a lot of simple project about image proccesing (English)
 ### Content 
 ``` 
 this repository is about a lot of simple project about image proccesing with c++ and opencv
@@ -19,7 +19,7 @@ this repository is about a lot of simple project about image proccesing with c++
 - c++ 
 - VS 2015
 ``` 
-# c++ programlama dili ile opencv kütüphanesi kullanılarak oluşturulmuş basit örnekleri (Türkçe)
+#  c++ ve opencv ile yapılmış basit görüntü işleme örnekleri (Türkçe)
 ### İçerikler 
 ``` 
 Bu repository opencv ve c++ kullanılarak oluşturulmuş basit görüntü işleme projeleri içermektedir.
