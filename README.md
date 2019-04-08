@@ -1,5 +1,5 @@
 
-# a lot of simple project about image proccesing (English)
+# A lots Simple projects are about image proccesing (English)
 ### Content 
 ``` 
 this repository is about a lot of simple project about image proccesing with c++ and opencv
