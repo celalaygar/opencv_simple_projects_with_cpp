@@ -1,21 +1,6 @@
-## c++ programlama dili ile opencv kütüphanesi kullanılarak oluşturulmuş basit örnekleri
 
-
-
-#### İçerikler (Türkçe)
-``` 
-Bu repository opencv ve c++ kullanılarak oluşturulmuş basit görüntü işleme projeleri içermektedir.
-``` 
-- kamerayı açma ve video kaydetme işlemi
-- video yu açık veya koyu tonda kaydetme işlemi
-- Resim ve kamera üzerinde yüz ve göz tespiti 
-- kenar bulma
-- kamera üzerinde pixel kontrolü
-- resim üzerinde renk tespiti 
-- kırmızı cisim ile ekrana cizgi çizme işlemi
-- camera onunde engel olup olmadığını kontrol etme
-
-#### Content (English)
+# a lot of simple project about image proccesing with c++ and opencv (English)
+### Content 
 ``` 
 this repository is about a lot of simple project about image proccesing with c++ and opencv
 ``` 
@@ -34,3 +19,16 @@ this repository is about a lot of simple project about image proccesing with c++
 - c++ 
 - VS 2015
 ``` 
+# c++ programlama dili ile opencv kütüphanesi kullanılarak oluşturulmuş basit örnekleri (Türkçe)
+### İçerikler 
+``` 
+Bu repository opencv ve c++ kullanılarak oluşturulmuş basit görüntü işleme projeleri içermektedir.
+``` 
+- kamerayı açma ve video kaydetme işlemi
+- video yu açık veya koyu tonda kaydetme işlemi
+- Resim ve kamera üzerinde yüz ve göz tespiti 
+- kenar bulma
+- kamera üzerinde pixel kontrolü
+- resim üzerinde renk tespiti 
+- kırmızı cisim ile ekrana cizgi çizme işlemi
+- camera onunde engel olup olmadığını kontrol etme
